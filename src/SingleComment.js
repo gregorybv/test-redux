@@ -32,7 +32,12 @@ function SingleComment({ data }) {
       <div onClick={handleDelete} className='comments-item-delete'>
         &times;
       </div>
-      <input type='text' value={commentText} onChange={handleInput} />
+      <input
+        type='text'
+        value={commentText}
+        onChange={handleInput}
+       
+      />
       <input type='submit' hidden />
     </form>
   )
